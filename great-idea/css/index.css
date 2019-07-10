@@ -273,3 +273,33 @@ address {
 .list ul {
 	list-style-type: square;
 }
+
+@media screen and (max-width: 880px) {
+	header {
+		width: 100%;
+	}
+	img {
+		height: auto;
+		width: 100%;
+	}
+	.services-sub-content {
+		padding: 0 10%;
+	}
+	.services-main-content {
+		display: flex;
+		flex-flow: column wrap;
+
+	}
+	.services-main-content .container {
+		width: 100%;
+	}
+	.services-footer {
+		display: flex;
+		flex-direction: column;
+	}
+	.services-facts {
+		padding: 0 10%;
+	}
+
+
+}
