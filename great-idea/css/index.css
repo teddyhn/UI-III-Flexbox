@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 
 }
 
 html, body {
@@ -64,3 +65,211 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.wrapper {
+	margin: auto;
+	max-width: 880px;
+}
+
+header {
+	padding: 15px 15px 15px 15px;
+	background-color: #0186EF;
+	position: fixed;
+	top: 0;
+	width: 880px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.first {
+	height: 450px;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.intro {
+	margin-top: 60px;
+	width: auto;
+}
+
+.intro h1{
+	text-align: center;
+	font-size: 64px;
+}
+
+.hvr-grow {
+	margin: 150px;
+	padding: 0 50px;
+	border: 1px solid black;
+}
+
+.hvr-grow:hover {
+	color: black;
+	background-color: #2E9AC8;
+	border: 1px solid white;
+}
+
+.codepic {
+	margin: auto;
+}
+
+.above-img {
+	padding: 30px 0;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.below-img {
+	text-align: center;
+}
+
+.above-img p {
+	width: 430px;
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+}
+
+.below-img {
+	padding: 30px 0;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.below-img h2 {
+	text-align: left;
+}
+
+.below-img p {
+	width: 280px;
+	text-align: left;
+}
+
+footer {
+	padding: 30px 0;
+	text-align: center;
+}
+
+address {
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.linespacing {
+	line-height: 3.2;
+}
+
+.services-header-img {
+	padding-top: 66px;
+}
+
+.services-sub-content {
+	margin: 30px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+.services-sub-content h1{
+	font-size: 24px;
+}
+
+.services-sub-content p{
+	line-height: 1.6;
+}
+
+.services-main-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 920px;
+	margin-bottom: 10px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+
+.services-main-content .container{
+	width: 420px;
+	height: 270px;
+	background-color: #F4F3F4;
+	border: 1px solid black;
+}
+
+.services-main-content .content{
+	width: 380px;
+	height: 350px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.services-main-content .content h2 {
+	font-size: 18px;
+}
+
+.services-main-content p{
+	line-height: 1.6;
+}
+
+.button {
+	height: 35px;
+	width: 140px;
+	font-size: 14px;
+	text-align: center;
+	padding: 9px 0 12px 0;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+	margin: 12px 0 0 0;
+}
+
+.button:hover {
+	background: #2E9AC8;
+	border: 1px solid #F4F3F4;
+}
+
+.button a:hover {
+	color: black;
+}
+
+.services-footer {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 120px;
+}
+.services-facts {
+	width: 420px;
+	text-align: left;
+	line-height: 1.6;
+}
+
+.services-facts .list {
+	margin-top: 20px;
+	padding-left: 18px;
+}
+
+.list ul {
+	list-style-type: square;
+}
